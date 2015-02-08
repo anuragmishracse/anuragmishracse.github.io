@@ -102,7 +102,8 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/Skate1.png" class="img-responsive" alt="">
+			<h4>Inline Arduino Skating</h4>
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -306,21 +307,18 @@
                         <div class="modal-body">
                             <h2>Inline Arduino Skating</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/skate1.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+			    <img src="img/portfolio/Skate1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/Skate2.jpg" class="img-responsive img-centered" alt="">
+                            <p>Recently I bought my new pair of inline skates. And I have modified it a bit using Arduino, DHT11, JHD 162A, HC SR04 etc.<br>I am trying to measure the rpm, in turn, the linear velocity of my wheels while I am skating. I have used an ultrasonic sensor, with the help of which I am measuring the speed of my skates only when they are on the ground(about 15 cm). I am also measuring the temperature and humidity of the surrounding. All the values are displayed on the 16*2 LCD display.<br>I have uploaded its video on YouTube.<br><a href="http://www.youtube.com/watch?v=Lvfzwf9xv6E">Inline Arduino Skating Part 1</a><br>
+<a href="http://www.youtube.com/watch?v=1efyY0JB8BE">Inline Arduino Skating Part 2</a><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/InlineArduinoSkates">Inline Arduino Skates GitHub Code</a><br>I would like to thank my senior<a href="https://chiragnagpal.com">Chirag Nagpal sir</a> for giving me guidance.</p>
+
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
+                               
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://startbootstrap.com">8th February 2015</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
+                                
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
