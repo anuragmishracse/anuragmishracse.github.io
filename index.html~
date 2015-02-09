@@ -185,7 +185,7 @@
 		<p> I went to IIT BHU(Varanasi) in the winters of 2014. I express my gratitude and sincere thanks to Dr. Bhaskar Biswas under whom I got the opportunity to work on :<br>1) Facebook page categorization using textual similarity and graph clustering.<br>2) Sentiment analysis of a particular event between news and tweets.</p>
 		</div></br>
 		<div class="row">
-		<p> I did a training in <b>core Java</b> in the summers of 2014 with HPES of HP(Hewlett Packard).<br>Score : 74/100<br>Grade : 'A'<br>Batch Topper.</p>
+		<p> I did a training in <b>core Java</b> in the summers of 2014 with HPES of HP(Hewlett Packard).<br>Score : 74/100<br>Grade : 'A'<br>Batch Topper.<br>Cerification ID - HP/STP/2014/S2500</p>
 		</div></br>
 		<div class="row">
 		<p> Skating is my hobby. I try doing stunts like back flip, crossover etc. My recent hack was to modify my inline skates using Arduino and measure speed, temperatue, humidity etc.</p>
@@ -349,7 +349,7 @@
                             <h2>ThankYou Facebook</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/thank.jpg" class="img-responsive img-centered" alt="">
-                            <p>Many people wish you 'Happy birthday' on your birthday on Facebook. Are you manually going to like and comment? Here's a cool shortcut. This is basically a script to thank all the people who post 'Happy Birthday' on your timeline.<br>The code can be found at GitHub.<br><a href="https://github.com/anuragmishracse/ThankYouFacebook">ThankYou Facebook</a>.</p>
+                            <p>Many people wish you 'Happy birthday', on your birthday, on Facebook. Are you manually going to like and comment? Here's a cool shortcut. This is basically a script to thank all the people who post 'Happy Birthday' on your timeline.<br>The code can be found at GitHub.<br><a href="https://github.com/anuragmishracse/ThankYouFacebook">ThankYou Facebook</a>.</p>
                             <ul class="list-inline item-details">
                                
                                 <li>Date:
