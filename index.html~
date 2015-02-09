@@ -317,7 +317,7 @@
 			    <img src="img/portfolio/Skate1.jpg" class="img-responsive img-centered" alt="">
                             <img src="img/portfolio/Skate2.jpg" class="img-responsive img-centered" alt="">
                             <p>Recently I bought my new pair of inline skates. And I have modified it a bit using Arduino, DHT11, JHD 162A, HC SR04 etc.<br>I am trying to measure the rpm, in turn, the linear velocity of my wheels while I am skating. I have used an ultrasonic sensor, with the help of which I am measuring the speed of my skates only when they are on the ground(about 15 cm). I am also measuring the temperature and humidity of the surrounding. All the values are displayed on the 16*2 LCD display.<br>I have uploaded its video on YouTube.See the videos below<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Lvfzwf9xv6E" frameborder="0" allowfullscreen></iframe><br><br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1efyY0JB8BE" frameborder="0" allowfullscreen></iframe><br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/InlineArduinoSkates">Inline Arduino Skates GitHub Code</a><br><br>I would like to thank my senior <a href="https://chiragnagpal.com">Chirag Nagpal</a> for giving me guidance.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1efyY0JB8BE" frameborder="0" allowfullscreen></iframe><br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/InlineArduinoSkates">Inline Arduino Skates GitHub Code</a><br><br>I would like to thank my senior <a href="http://chiragnagpal.com/">Chirag Nagpal</a> for giving me guidance.</p>
 
                             <ul class="list-inline item-details">
                                
@@ -381,7 +381,7 @@
                             <h2>Internet Speed Plotter</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>One day, the internet speed of my college was fluctuating. I wasn't able to do anything. So, I thought of making a script to observe the internet speed of my college over a period of a one day(24 hrs) and plotted a graph.<br>The result was pretty interesting. I observed that the sweet spot to use internet is the night-time i.e. between 2am - 4am.<br><br>The source code can be found on GitHub.<br><a href="">Internet Speed Plotter</a><br><br>I would like to thank my senior <a href="www.chiragnagpal.com">Chirag nagpal</a> for the guidance.</p>
+                            <p>One day, the internet speed of my college was fluctuating. I wasn't able to do anything. So, I thought of making a script to observe the internet speed of my college over a period of a one day(24 hrs) and plotted a graph.<br>The result was pretty interesting. I observed that the sweet spot to use internet is the night-time i.e. between 2am - 4am.<br><br>The source code can be found on GitHub.<br><a href="https://github.com/anuragmishracse/InternetSpeedPlotter">Internet Speed Plotter</a><br><br>I would like to thank my senior <a href="http://chiragnagpal.com/">Chirag nagpal</a> for the guidance.</p>
                             <ul class="list-inline item-details">
                                
                                 <li>Date:
