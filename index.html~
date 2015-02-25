@@ -205,8 +205,8 @@
 		<p> Skating is my hobby. I try doing stunts like back flip, crossover etc. My recent hack was to modify my inline skates using Arduino and measure speed, temperatue, humidity etc.</p>
 		</div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Curriculum Vitae
+                    <a href="resume.pdf" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i>Curriculum Vitae
                     </a>
                 </div>
         </div>
@@ -328,7 +328,7 @@
                         <div class="modal-body">
                             <h2>Inline Arduino Skating</h2>
                             <hr class="star-primary">
-			    <p>Featured on 'HACKADAY' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>
+			    <p>Featured on '<b>HACKADAY</b>' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>
 			    <img src="img/portfolio/Skate1.jpg" class="img-responsive img-centered" alt="">
                             <img src="img/portfolio/Skate2.jpg" class="img-responsive img-centered" alt="">
 			    <img src="img/portfolio/skate.jpg" class="img-responsive img-centered" alt="">
