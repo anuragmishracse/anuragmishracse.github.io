@@ -430,6 +430,338 @@
     </div>
 
     <!-- Portfolio Modals -->
+
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Self-sufficient prototype of a self-driving car.</h2>
+                            <hr class="star-primary">
+                <!--<p>Featured on '<b>HACKADAY</b>' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>-->
+                <img src="img/portfolio/Car1.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/Car2.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/Car3.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/Car4.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/Car5.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/Car6.jpg" class="img-responsive img-centered" alt="">
+                            <p> I have been working on a project to build a prototype of a self-driving car which is self-sufficient and self-capable. The aim is to make a car that can steer itself, detect obstacles and read road signs so as to take corresponding actions.<br> 
+
+                            This is basically a fast, completely pythonic way of doing this using simple Feed Forward Neural Networks.<br>
+
+                            I built a track on which I train my car. <br>
+
+                            The car has a Raspberry Pi 2 mounted on top of it. A PiCamera and USB WIFI module are connected to it. The Pi creates a ad-hoc network with which one can access it. <br>
+
+                            While training the car to take decisions, I collect a sample to 10,000 images of the track of dimensions 150pi*75pi each, with their corresponding movement direction. Subsequently, I train a neural network(on my laptop) with a single hidden layer with 100 neurons using these input images and decisions. <br>
+
+                            The trained network is passed on as an XML file to the Raspberry Pi 2. During runtime, a new image is captures, passed to the neural network which gives a movement direction. <br>
+
+                            At every instance, the car checks for obstacles using an HC-SR04 ultrasonic sensor. With the distance formula, the distance of obstacle is calculated and car stops if obstacle is closer.<br>
+
+                            For each image frame captured, the car checks for road signs. A haar cascade classifier can be trained for each road sign. If found, its distance is calculated. If the sign is within range, action corresponding to the sign is taken.<br>
+
+                            The car has onboard LEDs for user viewing. Also the Pi hosts a web page that shows the image stream and decision taken.<br>
+
+                            The car is properly powered which gives it a high runtime.<br>
+                            While running, the car doesn't need any external computational power. Hence it is self-sufficient.<br>
+
+                            For details, please have a look at the video below.
+
+I hope you like the project. <br>I have uploaded its video on YouTube.<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/VbBeTtWJ_h4" frameborder="0" allowfullscreen></iframe><br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/AutonomousCar">AutonomousCar</a><br><br></p>
+
+                            <ul class="list-inline item-details">
+                               
+                                <li>Date:
+                                    <strong>1st January 2016 - 29th February 2016
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Hand gesture based Car Movement</h2>
+                            <hr class="star-primary">
+                <!--<p>Featured on '<b>HACKADAY</b>' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>-->
+                <img src="img/portfolio/Gesture1.png" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/Gesture2.png" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/Gesture3.png" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/Gesture4.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                I have been working on a model of a car that could run based on the driver's hand gestures.
+                                <br>Check the video below.<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Ez7dM8TuFZA" frameborder="0" allowfullscreen></iframe><br><br>
+                            <br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/HandGesture-CarMovement">Hand Gesture based Car Movement</a><br><br></p>
+
+                            <ul class="list-inline item-details">
+                               
+                                <li>Date:
+                                    <strong>March 2016
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Inline Arduino Skating</h2>
+                            <hr class="star-primary">
+                <p>Featured on '<b>HACKADAY</b>' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>
+                <img src="img/portfolio/Skate1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/Skate2.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate3.jpg" class="img-responsive img-centered" alt="">
+                            <p>Recently I bought my new pair of inline skates. And I have modified it a bit using Arduino, DHT11, JHD 162A, HC SR04 etc.<br>I am trying to measure the rpm, in turn, the linear velocity of my wheels while I am skating. I have used an ultrasonic sensor, with the help of which I am measuring the speed of my skates only when they are on the ground(about 15 cm). I am also measuring the temperature and humidity of the surrounding. All the values are displayed on the 16*2 LCD display.<br>I have uploaded its video on YouTube.See the videos below<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Lvfzwf9xv6E" frameborder="0" allowfullscreen></iframe><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1efyY0JB8BE" frameborder="0" allowfullscreen></iframe><br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/InlineArduinoSkates">Inline Arduino Skates GitHub Code</a><br><br>I would like to thank my senior <a href="http://chiragnagpal.com/">Chirag Nagpal</a> for giving me guidance.</p>
+
+                            <ul class="list-inline item-details">
+                               
+                                <li>Date:
+                                    <strong>8th February 2015
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Inline Arduino Skating</h2>
+                            <hr class="star-primary">
+                <p>Featured on '<b>HACKADAY</b>' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>
+                <img src="img/portfolio/Skate1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/Skate2.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate3.jpg" class="img-responsive img-centered" alt="">
+                            <p>Recently I bought my new pair of inline skates. And I have modified it a bit using Arduino, DHT11, JHD 162A, HC SR04 etc.<br>I am trying to measure the rpm, in turn, the linear velocity of my wheels while I am skating. I have used an ultrasonic sensor, with the help of which I am measuring the speed of my skates only when they are on the ground(about 15 cm). I am also measuring the temperature and humidity of the surrounding. All the values are displayed on the 16*2 LCD display.<br>I have uploaded its video on YouTube.See the videos below<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Lvfzwf9xv6E" frameborder="0" allowfullscreen></iframe><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1efyY0JB8BE" frameborder="0" allowfullscreen></iframe><br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/InlineArduinoSkates">Inline Arduino Skates GitHub Code</a><br><br>I would like to thank my senior <a href="http://chiragnagpal.com/">Chirag Nagpal</a> for giving me guidance.</p>
+
+                            <ul class="list-inline item-details">
+                               
+                                <li>Date:
+                                    <strong>8th February 2015
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Inline Arduino Skating</h2>
+                            <hr class="star-primary">
+                <p>Featured on '<b>HACKADAY</b>' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>
+                <img src="img/portfolio/Skate1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/Skate2.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate3.jpg" class="img-responsive img-centered" alt="">
+                            <p>Recently I bought my new pair of inline skates. And I have modified it a bit using Arduino, DHT11, JHD 162A, HC SR04 etc.<br>I am trying to measure the rpm, in turn, the linear velocity of my wheels while I am skating. I have used an ultrasonic sensor, with the help of which I am measuring the speed of my skates only when they are on the ground(about 15 cm). I am also measuring the temperature and humidity of the surrounding. All the values are displayed on the 16*2 LCD display.<br>I have uploaded its video on YouTube.See the videos below<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Lvfzwf9xv6E" frameborder="0" allowfullscreen></iframe><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1efyY0JB8BE" frameborder="0" allowfullscreen></iframe><br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/InlineArduinoSkates">Inline Arduino Skates GitHub Code</a><br><br>I would like to thank my senior <a href="http://chiragnagpal.com/">Chirag Nagpal</a> for giving me guidance.</p>
+
+                            <ul class="list-inline item-details">
+                               
+                                <li>Date:
+                                    <strong>8th February 2015
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Inline Arduino Skating</h2>
+                            <hr class="star-primary">
+                <p>Featured on '<b>HACKADAY</b>' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>
+                <img src="img/portfolio/Skate1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/Skate2.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate3.jpg" class="img-responsive img-centered" alt="">
+                            <p>Recently I bought my new pair of inline skates. And I have modified it a bit using Arduino, DHT11, JHD 162A, HC SR04 etc.<br>I am trying to measure the rpm, in turn, the linear velocity of my wheels while I am skating. I have used an ultrasonic sensor, with the help of which I am measuring the speed of my skates only when they are on the ground(about 15 cm). I am also measuring the temperature and humidity of the surrounding. All the values are displayed on the 16*2 LCD display.<br>I have uploaded its video on YouTube.See the videos below<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Lvfzwf9xv6E" frameborder="0" allowfullscreen></iframe><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1efyY0JB8BE" frameborder="0" allowfullscreen></iframe><br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/InlineArduinoSkates">Inline Arduino Skates GitHub Code</a><br><br>I would like to thank my senior <a href="http://chiragnagpal.com/">Chirag Nagpal</a> for giving me guidance.</p>
+
+                            <ul class="list-inline item-details">
+                               
+                                <li>Date:
+                                    <strong>8th February 2015
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Inline Arduino Skating</h2>
+                            <hr class="star-primary">
+                <p>Featured on '<b>HACKADAY</b>' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>
+                <img src="img/portfolio/Skate1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/Skate2.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate3.jpg" class="img-responsive img-centered" alt="">
+                            <p>Recently I bought my new pair of inline skates. And I have modified it a bit using Arduino, DHT11, JHD 162A, HC SR04 etc.<br>I am trying to measure the rpm, in turn, the linear velocity of my wheels while I am skating. I have used an ultrasonic sensor, with the help of which I am measuring the speed of my skates only when they are on the ground(about 15 cm). I am also measuring the temperature and humidity of the surrounding. All the values are displayed on the 16*2 LCD display.<br>I have uploaded its video on YouTube.See the videos below<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Lvfzwf9xv6E" frameborder="0" allowfullscreen></iframe><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1efyY0JB8BE" frameborder="0" allowfullscreen></iframe><br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/InlineArduinoSkates">Inline Arduino Skates GitHub Code</a><br><br>I would like to thank my senior <a href="http://chiragnagpal.com/">Chirag Nagpal</a> for giving me guidance.</p>
+
+                            <ul class="list-inline item-details">
+                               
+                                <li>Date:
+                                    <strong>8th February 2015
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Inline Arduino Skating</h2>
+                            <hr class="star-primary">
+                <p>Featured on '<b>HACKADAY</b>' : <a href="http://hackaday.com/2015/02/12/know-your-speed-on-rollerblades/">KNOW YOUR SPEED ON ROLLERBLADES</a></p>
+                <img src="img/portfolio/Skate1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/Skate2.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/skate3.jpg" class="img-responsive img-centered" alt="">
+                            <p>Recently I bought my new pair of inline skates. And I have modified it a bit using Arduino, DHT11, JHD 162A, HC SR04 etc.<br>I am trying to measure the rpm, in turn, the linear velocity of my wheels while I am skating. I have used an ultrasonic sensor, with the help of which I am measuring the speed of my skates only when they are on the ground(about 15 cm). I am also measuring the temperature and humidity of the surrounding. All the values are displayed on the 16*2 LCD display.<br>I have uploaded its video on YouTube.See the videos below<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Lvfzwf9xv6E" frameborder="0" allowfullscreen></iframe><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1efyY0JB8BE" frameborder="0" allowfullscreen></iframe><br><br>The source code is available on GitHub.<br><a href="https://github.com/anuragmishracse/InlineArduinoSkates">Inline Arduino Skates GitHub Code</a><br><br>I would like to thank my senior <a href="http://chiragnagpal.com/">Chirag Nagpal</a> for giving me guidance.</p>
+
+                            <ul class="list-inline item-details">
+                               
+                                <li>Date:
+                                    <strong>8th February 2015
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+
     <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
